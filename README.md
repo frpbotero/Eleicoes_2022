@@ -1,0 +1,1 @@
+Para rodar o extract_metadata é necesariao instalar o ollama serve e fazer o pull do modelo deepseek-r1:1.5b

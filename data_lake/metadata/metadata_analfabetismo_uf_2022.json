@@ -1,7 +1,7 @@
 {
     "file_name": "analfabetismo_uf_2022.csv",
     "description": "1) Columns: [UF,Estado,2022]\n2) Rows represent: [List of cities or states in Brazil with corresponding 2022 fuel efficiency values]",
-    "file_path_original": "/home/fbotero/Documents/POS/data_lake/raw/csv/analfabetismo_uf_2022.csv",
+    "file_path_original": "data_lake/raw/csv/analfabetismo_uf_2022.csv",
     "file_size_bytes": 533,
     "file_type": "csv",
     "columns": [

@@ -1,7 +1,7 @@
 {
     "file_name": "gini_uf_2022.csv",
     "description": "Columns: [Federal Unit/State information, State names, Values between 0.42 and 0.54]\nRows represent: [The Federal Units/States are listed along with their corresponding values]",
-    "file_path_original": "/home/fbotero/Documents/POS/data_lake/raw/csv/gini_uf_2022.csv",
+    "file_path_original": "data_lake/raw/csv/gini_uf_2022.csv",
     "file_size_bytes": 523,
     "file_type": "csv",
     "columns": [

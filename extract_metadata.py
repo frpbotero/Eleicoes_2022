@@ -21,7 +21,7 @@ import requests
 # ---------------------------------------------------------------------------
 # Configurações gerais -------------------------------------------------------
 # ---------------------------------------------------------------------------
-CSV_FOLDER: str = "/home/fbotero/Documents/POS/data_lake/raw/csv"
+CSV_FOLDER: str = "data_lake/raw/csv"
 DATA_LAKE_BASE_PATH: str = "data_lake"  # diretório base (criado se não existir)
 OLLAMA_URL: str = "http://localhost:11434//api/chat"
 OLLAMA_MODEL = "deepseek-r1:1.5b" 

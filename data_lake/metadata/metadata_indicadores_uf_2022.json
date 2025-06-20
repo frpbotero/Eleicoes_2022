@@ -1,7 +1,7 @@
 {
     "file_name": "indicadores_uf_2022.csv",
     "description": "1) Columns: [UF, PIB_R$mi, PIB_per_capita_R$, IDHM_2021, Esperanca_vida, Esperanza videncia, Morfeo infantil per mil, AC, AL, AM, AP, BA, CE, DF, ES, GO, MA, MT, MS, MG, PA, PB, PR, PE, PI, RJ, RN, RS, RO, RR, SC, SP, SE, TO]\n2) Rows represent: [Data entries corresponding to each row in the CSV file. The columns provide information about different regions or categories with their respective values.]",
-    "file_path_original": "/home/fbotero/Documents/POS/data_lake/raw/csv/indicadores_uf_2022.csv",
+    "file_path_original": "data_lake/raw/csv/indicadores_uf_2022.csv",
     "file_size_bytes": 974,
     "file_type": "csv",
     "columns": [

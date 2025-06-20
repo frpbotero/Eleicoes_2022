@@ -18,11 +18,9 @@ from typing import Iterable, List
 import pandas as pd
 import requests
 
-# ---------------------------------------------------------------------------
-# Configurações gerais -------------------------------------------------------
-# ---------------------------------------------------------------------------
+# Configurações gerais 
 CSV_FOLDER: str = "data_lake/raw/csv"
-DATA_LAKE_BASE_PATH: str = "data_lake"  # diretório base (criado se não existir)
+DATA_LAKE_BASE_PATH: str = "data_lake"  
 OLLAMA_URL: str = "http://localhost:11434//api/chat"
 OLLAMA_MODEL = "deepseek-r1:1.5b" 
 
@@ -33,7 +31,7 @@ OLLAMA_TIMEOUT: int = 60
 os.makedirs(Path(DATA_LAKE_BASE_PATH, "raw", "csv"), exist_ok=True)
 os.makedirs(Path(DATA_LAKE_BASE_PATH, "metadata"), exist_ok=True)
 
-# Configuração de logging ----------------------------------------------------
+# Configuração de logging 
 logging.basicConfig(
     level=logging.INFO,
     format="%(levelname)s | %(asctime)s | %(message)s",
@@ -43,9 +41,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-# ---------------------------------------------------------------------------
-# Funções utilitárias --------------------------------------------------------
-# ---------------------------------------------------------------------------
+
+# Funções
 
 def create_description(csv_text_for_llm: str, model: str = OLLAMA_MODEL) -> str:
     """
@@ -137,9 +134,7 @@ def read_csv_as_string(path: str, encodings: Iterable[str] = ("utf-8", "latin1")
     return ""  # vazio se nenhuma codificação funcionar
 
 
-# ---------------------------------------------------------------------------
-# Pipeline principal ---------------------------------------------------------
-# ---------------------------------------------------------------------------
+# Pipeline principal 
 
 def process_csv_folder(csv_folder: str) -> None:
     """Percorre todos os CSVs e gera metadados."""

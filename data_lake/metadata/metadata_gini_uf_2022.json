@@ -1,0 +1,43 @@
+{
+    "file_name": "gini_uf_2022.csv",
+    "description": "Columns: [Federal Unit/State information, State names, Values between 0.42 and 0.54]\nRows represent: [The Federal Units/States are listed along with their corresponding values]",
+    "file_path_original": "/home/fbotero/Documents/POS/data_lake/raw/csv/gini_uf_2022.csv",
+    "file_size_bytes": 523,
+    "file_type": "csv",
+    "columns": [
+        "UF",
+        "Estado",
+        "2022"
+    ],
+    "delimiter": ",",
+    "date_collected": "2025-06-20",
+    "responsible": "Botero",
+    "row_count": 27,
+    "first_5_rows_preview": [
+        {
+            "UF": "SC",
+            "Estado": "Santa Catarina",
+            "2022": 0.42
+        },
+        {
+            "UF": "RO",
+            "Estado": "Rond\u00f4nia",
+            "2022": 0.45
+        },
+        {
+            "UF": "MT",
+            "Estado": "Mato Grosso",
+            "2022": 0.45
+        },
+        {
+            "UF": "GO",
+            "Estado": "Goi\u00e1s",
+            "2022": 0.46
+        },
+        {
+            "UF": "MG",
+            "Estado": "Minas Gerais",
+            "2022": 0.47
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "file_name": "indicadores_uf_2022.csv",
+    "description": "1) Columns: [UF, PIB_R$mi, PIB_per_capita_R$, IDHM_2021, Esperanca_vida, Esperanza videncia, Morfeo infantil per mil, AC, AL, AM, AP, BA, CE, DF, ES, GO, MA, MT, MS, MG, PA, PB, PR, PE, PI, RJ, RN, RS, RO, RR, SC, SP, SE, TO]\n2) Rows represent: [Data entries corresponding to each row in the CSV file. The columns provide information about different regions or categories with their respective values.]",
+    "file_path_original": "/home/fbotero/Documents/POS/data_lake/raw/csv/indicadores_uf_2022.csv",
+    "file_size_bytes": 974,
+    "file_type": "csv",
+    "columns": [
+        "UF",
+        "PIB_R$mi",
+        "PIB_per_capita_R$",
+        "IDHM_2021",
+        "Esperanca_vida",
+        "Mort_infantil_per_mil"
+    ],
+    "delimiter": ",",
+    "date_collected": "2025-06-20",
+    "responsible": "Botero",
+    "row_count": 27,
+    "first_5_rows_preview": [
+        {
+            "UF": "AC",
+            "PIB_R$mi": 23676,
+            "PIB_per_capita_R$": 28525,
+            "IDHM_2021": "0,71",
+            "Esperanca_vida": 75.3,
+            "Mort_infantil_per_mil": 15.5
+        },
+        {
+            "UF": "AL",
+            "PIB_R$mi": 76066,
+            "PIB_per_capita_R$": 24322,
+            "IDHM_2021": "0,684",
+            "Esperanca_vida": 73.3,
+            "Mort_infantil_per_mil": 13.8
+        },
+        {
+            "UF": "AM",
+            "PIB_R$mi": 145140,
+            "PIB_per_capita_R$": 36827,
+            "IDHM_2021": "0,7",
+            "Esperanca_vida": 73.0,
+            "Mort_infantil_per_mil": 16.0
+        },
+        {
+            "UF": "AP",
+            "PIB_R$mi": 23614,
+            "PIB_per_capita_R$": 32194,
+            "IDHM_2021": "0,688",
+            "Esperanca_vida": 75.0,
+            "Mort_infantil_per_mil": 18.1
+        },
+        {
+            "UF": "BA",
+            "PIB_R$mi": 402647,
+            "PIB_per_capita_R$": 28483,
+            "IDHM_2021": "0,691",
+            "Esperanca_vida": 74.5,
+            "Mort_infantil_per_mil": 14.0
+        }
+    ]
+}

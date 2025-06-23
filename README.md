@@ -73,13 +73,11 @@ pip install -r requirements.txt
 
 Todas as fontes são públicas e gratuitas.
 
+
+## Apresentação
+
+* https://youtu.be/ndF_9L-OpOs?feature=shared
+
 ## Licença
 
 [MIT](LICENSE)
-
-## Autor
-
-Felipe Botero – contato via GitHub.
-
----
-Para dúvidas ou melhorias, abra uma _issue_ ou entre em contato.
